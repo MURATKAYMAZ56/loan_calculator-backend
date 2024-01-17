@@ -56,14 +56,19 @@ You can use Postman to make API calls to the backend. Follow these steps:
 ```
 {
   "amount": 1000,
-  "installment": 12,
-  "interestRate": 5,
+  "instalment": 11,
+  "interestRate": 2.4,
   "email": "test@example.com"
 }
 
 
 ```
-6. Click the "Send" button to make the API call.
+6. Click the "Send" button to make the API call. Then you should see api response as below.
+```
+{
+    "emi": 231.11
+}
+```
 
 7. Review the response in H2 console (See below for H2 console) to see the calculated EMI information.
 ## Accessing H2 Console
