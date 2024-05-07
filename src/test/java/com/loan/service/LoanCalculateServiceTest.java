@@ -47,9 +47,4 @@ public class LoanCalculateServiceTest {
         Assertions.assertEquals(0, EXPECTED_EMI.compareTo(emi));
     }
 
-//    @Test
-//    public void testCalculateEmiWhenExceptionalCase() {
-//        BigDecimal monthlyInterestRate = LOAN_YEARLY_INTEREST_RATE.divide(BigDecimal.valueOf(12), MathContext.DECIMAL128);
-//        Assertions.assertThrows(RuntimeException.class, () -> loanCalculateService.calculateEmi(LOAN_AMOUNT, LOAN_INSTALLMENT, monthlyInterestRate));
-//    }
 }
